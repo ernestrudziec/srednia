@@ -8,8 +8,8 @@ function srednia()
 echo srednia(1, 2, 5, 3, 4, 2, 2, 1, 3);
 ?>
 <?php
-$oceny = array(1,2,3,4,5);
-$wagi = array(5,4,3,2,1);
+$oceny = array(45,75,5,12,43);
+$wagi = array(65,32,54,54,54);
 $sumaWazona = 0;
 foreach( $oceny as $klucz => $ocena ){
   $sumaWazona +=  $ocena * $wagi[$klucz];
